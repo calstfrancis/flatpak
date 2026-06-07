@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components version="0.8" origin="flatpak">
+  <component type="desktop-application">
+    <id>io.github.calstfrancis.Zerkalo</id>
+    <name>Zerkalo</name>
+    <summary>Typst editor with live preview, LSP completions, and git sync</summary>
+    <project_license>MIT</project_license>
+    <description>
+      <p>
+      Zerkalo is a GTK4 editor for Typst documents with a focus on academic and
+      contemplative writing. It embeds the Typst compiler directly — no external
+      binary required — and renders a live preview as you type.
+    </p>
+      <p>Editor features:</p>
+      <ul>
+        <li>Multi-file tabs with modified indicator and inline compile-error dots</li>
+        <li>Syntax highlighting, find and replace, auto-pair brackets</li>
+        <li>LSP completions via bundled tinymist — type # for a popup</li>
+        <li>Citation autocomplete — type @ for fuzzy BibTeX key search</li>
+        <li>Spell check with suggestions, Ignore All, and language selector</li>
+        <li>Word count, reading time, word-count goal, and session delta in the status bar</li>
+        <li>Command palette (Ctrl+K) — fuzzy search over commands and headings</li>
+        <li>Breadcrumb bar showing your heading path as the cursor moves</li>
+        <li>Configurable keybindings via keybindings.toml</li>
+      </ul>
+      <p>Document workflow:</p>
+      <ul>
+        <li>New from Template — dialog generates a complete Typst preamble</li>
+        <li>Import from LaTeX, DOCX, or PDF via pandoc</li>
+        <li>Export to PDF, HTML, DOCX, ODT, or LaTeX</li>
+        <li>Citation style switcher with GOST 7.32 support</li>
+        <li>Git sync — commit and push to all remotes in one click</li>
+      </ul>
+      <p>Sidebar:</p>
+      <ul>
+        <li>Document outline with cursor-tracking highlight</li>
+        <li>File tree, citation panel, plan scratchpad, and section notes</li>
+        <li>Symbol insert panel for Cyrillic, Greek, Hebrew, and Sanskrit</li>
+      </ul>
+    </description>
+    <developer id="io.github.calstfrancis">
+      <name>Cal St Francis</name>
+    </developer>
+    <developer_name>Cal St Francis</developer_name>
+    <launchable type="desktop-id">io.github.calstfrancis.Zerkalo.desktop</launchable>
+    <icon type="cached" width="48" height="48">io.github.calstfrancis.Zerkalo.png</icon>
+    <icon type="cached" width="64" height="64">io.github.calstfrancis.Zerkalo.png</icon>
+    <icon type="cached" width="64" height="64" scale="2">io.github.calstfrancis.Zerkalo.png</icon>
+    <icon type="cached" width="128" height="128">io.github.calstfrancis.Zerkalo.png</icon>
+    <icon type="cached" width="128" height="128" scale="2">io.github.calstfrancis.Zerkalo.png</icon>
+    <icon type="stock">io.github.calstfrancis.Zerkalo</icon>
+    <url type="homepage">https://github.com/calstfrancis/zerkalo</url>
+    <url type="bugtracker">https://github.com/calstfrancis/zerkalo/issues</url>
+    <categories>
+      <category>Office</category>
+      <category>TextEditor</category>
+    </categories>
+    <provides>
+      <mediatype>text/x-typst</mediatype>
+    </provides>
+    <keywords>
+      <keyword>typst</keyword>
+      <keyword>editor</keyword>
+      <keyword>writing</keyword>
+    </keywords>
+    <releases>
+      <release type="stable" version="0.12.10" timestamp="1780790400">
+        <description>
+          <p>Git Remotes dialog now includes a Primary Remote section for viewing and editing the origin URL.</p>
+        </description>
+      </release>
+    </releases>
+    <content_rating type="oars-1.1"/>
+    <bundle type="flatpak" runtime="org.gnome.Platform/x86_64/48" sdk="org.gnome.Sdk/x86_64/48">app/io.github.calstfrancis.Zerkalo/x86_64/master</bundle>
+  </component><component type="desktop-application">
+    <id>io.github.calstfrancis.kopilka</id>
+    <name>Kopilka</name>
+    <summary>Couples budget planner with shared finance management</summary>
+    <project_license>GPL-3.0-or-later</project_license>
+    <description>
+      <p>
+      Kopilka is a GTK4 budget planner for two-person households. Track income,
+      fixed expenses, debt, discretionary spending, assets, and savings goals in
+      a shared JSON file that can be synced via pCloud or any shared folder.
+    </p>
+      <ul>
+        <li>Dashboard with income breakdown, net budget, bills calendar, net worth, and category spending bars</li>
+        <li>Income tracking for multiple sources per person</li>
+        <li>Fixed expenses with calendar view and next-due dates</li>
+        <li>Debt management with payoff projections and what-if extra payment slider</li>
+        <li>Discretionary spending with per-category budgets, rollover, and seasonal overrides</li>
+        <li>One-time purchase pool for irregular expenses</li>
+        <li>Recurring entries that auto-insert into the spending log</li>
+        <li>Spending log grouped by date with category tagging</li>
+        <li>Reports with donut charts, monthly bar charts, and per-category trends</li>
+        <li>Asset accounts with balance history and savings goal tracker</li>
+        <li>Sync via pCloud — detects external file changes on window focus and offers a one-click reload</li>
+      </ul>
+    </description>
+    <developer>
+      <name>Cal St Francis</name>
+    </developer>
+    <developer_name>Cal St Francis</developer_name>
+    <launchable type="desktop-id">io.github.calstfrancis.kopilka.desktop</launchable>
+    <icon type="cached" width="48" height="48">io.github.calstfrancis.kopilka.png</icon>
+    <icon type="cached" width="64" height="64">io.github.calstfrancis.kopilka.png</icon>
+    <icon type="cached" width="64" height="64" scale="2">io.github.calstfrancis.kopilka.png</icon>
+    <icon type="cached" width="128" height="128">io.github.calstfrancis.kopilka.png</icon>
+    <icon type="cached" width="128" height="128" scale="2">io.github.calstfrancis.kopilka.png</icon>
+    <icon type="stock">io.github.calstfrancis.kopilka</icon>
+    <url type="homepage">https://github.com/calstfrancis/kopilka</url>
+    <url type="bugtracker">https://github.com/calstfrancis/kopilka/issues</url>
+    <categories>
+      <category>Office</category>
+      <category>Finance</category>
+    </categories>
+    <releases>
+      <release type="stable" version="0.5.0" timestamp="1780704000">
+        <description>
+          <p>Delete confirmation dialogs, Today button on all date fields, friendly date headers in spending log, budget load error notification, and several bug fixes.</p>
+        </description>
+      </release>
+    </releases>
+    <content_rating type="oars-1.1"/>
+    <bundle type="flatpak" runtime="org.gnome.Platform/x86_64/48" sdk="org.gnome.Sdk/x86_64/48">app/io.github.calstfrancis.kopilka/x86_64/master</bundle>
+  </component><component type="desktop-application">
+    <id>io.github.calstfrancis.rubric</id>
+    <name>Rubric</name>
+    <summary>Worship service planning with RCL integration</summary>
+    <project_license>GPL-3.0-or-later</project_license>
+    <description>
+      <p>
+      Rubric is a GNOME-native worship service planning tool for United Church
+      of Canada ministry. Plan service orders, look up RCL readings, find
+      hymns, fetch Bible passages, and export polished bulletins — HTML or
+      PDF. PDF export uses the bundled Typst typesetter; no LaTeX required.
+    </p>
+      <p>Features include:</p>
+      <ul>
+        <li>Revised Common Lectionary readings, liturgical colour, and per-Proper hymn suggestions</li>
+        <li>Hymn lookup from Voices United, More Voices, and Let Us Sing via Hymnary.org</li>
+        <li>Bible passage viewer (WEB, KJV, ASV, ESV) with one-click scripture insertion</li>
+        <li>Rich text and raw Typst editing per service element</li>
+        <li>Live PDF bulletin preview with bundled Typst compiler</li>
+        <li>HTML bulletin export — print to PDF directly from your browser</li>
+        <li>Service Planner to browse and open all your saved services</li>
+        <li>GitHub sync to back up and share services across machines</li>
+        <li>Snippets library and responsive reading builder</li>
+        <li>Named service order templates</li>
+      </ul>
+    </description>
+    <developer>
+      <name>Caleb St. Francis</name>
+    </developer>
+    <developer_name>Caleb St. Francis</developer_name>
+    <requires>
+      <display_length>600</display_length>
+    </requires>
+    <recommends>
+      <display_length>768</display_length>
+    </recommends>
+    <launchable type="desktop-id">io.github.calstfrancis.rubric.desktop</launchable>
+    <icon type="cached" width="48" height="48">io.github.calstfrancis.rubric.png</icon>
+    <icon type="cached" width="64" height="64">io.github.calstfrancis.rubric.png</icon>
+    <icon type="cached" width="64" height="64" scale="2">io.github.calstfrancis.rubric.png</icon>
+    <icon type="cached" width="128" height="128">io.github.calstfrancis.rubric.png</icon>
+    <icon type="cached" width="128" height="128" scale="2">io.github.calstfrancis.rubric.png</icon>
+    <icon type="stock">io.github.calstfrancis.rubric</icon>
+    <url type="homepage">https://github.com/calstfrancis/rubric</url>
+    <url type="bugtracker">https://github.com/calstfrancis/rubric/issues</url>
+    <categories>
+      <category>Office</category>
+      <category>Education</category>
+    </categories>
+    <provides>
+      <mediatype>application/x-liturgy</mediatype>
+    </provides>
+    <keywords>
+      <keyword>worship</keyword>
+      <keyword>liturgy</keyword>
+      <keyword>service</keyword>
+      <keyword>church</keyword>
+      <keyword>UCC</keyword>
+      <keyword>lectionary</keyword>
+      <keyword>RCL</keyword>
+    </keywords>
+    <releases>
+      <release type="stable" version="0.15.0" timestamp="1780790400">
+        <description>
+          <p>Phase 4 — Polish and Packaging. Typst syntax highlighting in the element editor (GtkSourceView). Structured error parsing for compilation failures. In-app Typst template editor in Preferences → Typst Files with Reset to default. Bundled typst binary included in deb and rpm packages. Documentation updated throughout.</p>
+        </description>
+      </release>
+      <release type="stable" version="0.14.8" timestamp="1780704000">
+        <description>
+          <p>Sidebar starts fully visible. Autosave restore dialog now appears after the changelog, not over it. Hymn downloads continue in the background if you close the wizard; toast notification when done. Hymn scraping now uses og:title for reliability.</p>
+        </description>
+      </release>
+      <release type="stable" version="0.14.7" timestamp="1780704000">
+        <description>
+          <p>Compact view now actually reduces row height. Fixes the CSS that was adding padding to divider rows and having no effect on service-item rows.</p>
+        </description>
+      </release>
+      <release type="stable" version="0.14.4" timestamp="1780704000">
+        <description>
+          <p>Native .deb (Debian/Ubuntu) and .rpm (openSUSE/Fedora) packages. Build scripts added: build-deb.sh and build-rpm.sh.</p>
+        </description>
+      </release>
+    </releases>
+    <content_rating type="oars-1.1"/>
+    <bundle type="flatpak" runtime="org.gnome.Platform/x86_64/48" sdk="org.gnome.Sdk/x86_64/48">app/io.github.calstfrancis.rubric/x86_64/master</bundle>
+  </component>
+</components>
