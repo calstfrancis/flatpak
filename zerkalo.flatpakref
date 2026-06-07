@@ -1,0 +1,7 @@
+[Flatpak Ref]
+Version=1
+Name=io.github.calstfrancis.Zerkalo
+Title=Zerkalo
+Url=https://calstfrancis.github.io/flatpak/
+Branch=master
+IsRuntime=false
